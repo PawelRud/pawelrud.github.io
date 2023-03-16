@@ -1,0 +1,175 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+  <title>Bath - Bristol Probability Seminar</title>
+  <meta name="description" content="website description" />
+  <meta name="keywords" content="website keywords, website keywords" />
+  <meta http-equiv="content-type" content="text/html; charset=windows-1252" />
+  <link rel="stylesheet" type="text/css" href="style/style.css" />
+</head>
+
+<script src="scripts.js"></script>
+
+<body>
+  <div id="main">
+    <div id="header">
+      <div id="logo">
+        <div id="logo_text">
+          <!-- class="logo_colour", allows you to change the colour of the text -->
+          <h1><a href="index.html">Pawel Rudnicki</span></a></h1>
+          <h2>PhD Research Programme in Mathematics</h2>
+          <h2>University of Bath</h2>
+        </div>
+      </div>
+      <div id="menubar">
+        <ul id="menu">
+          <!-- put class="selected" in the li tag for the selected page - to highlight which page you're on -->
+          <li><a href="index.html">Home</a></li>
+          <li><a href="activities.html">Activities</a></li>
+          <li class="selected"><a href="seminar.html">POPS</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+    <div id="content_header"></div>
+    <div id="site_content">
+      <div id="sidebar_container">
+        <div class="sidebar">
+          <div class="sidebar_top"></div>
+          <div class="sidebar_item">
+            <!-- insert your sidebar items here
+            <h3>Upcoming</h3>
+            <h4>Reinforced digging random walks on trees with linear reinforcement</h4>
+            <h5>22 June 2022</h5>
+            <p><a href="bath_bristol_seminar.html">Read more</a></p> -->
+
+            <div w3-include-html="upcoming.html"></div>
+            <script> includeHTML(); </script>
+
+          </div>
+          <div class="sidebar_base"></div>
+        </div>
+      </div>
+      <div id="content" style="margin-bottom: 2cm;">
+
+        <h1><a href="BBPS_committee.html">Meet the organisers</a></h1>
+
+        <p style="margin-bottom: -0.5cm; margin-top: 0.75cm;">In 2022 - 2023, we organised a series of postgraduate seminars in probability between the Universities of Bath and Bristol.</p>
+
+        <h1><b>Previous Bath - Bristol Probability Seminars (2022/2023)</b></h1>
+
+        <button class="collapsible">Quenched invariance principle for biased random walks in random conductances in the sub-ballistic regime - Carlo Scali</button>
+        <div class="content">
+          <p>Consider a biased random walk in positive random conductances on &#x2124;<sup>d</sup> for d &#8805; 5. In the sub-ballistic regime, Fribergh and Kious
+             (2018) proved the convergence, under the annealed law, of the properly rescaled random walk towards a Fractional Kinetics. I will explain that
+             a quenched equivalent of this theorem is true and a strategy to simplify the question. This is a joint work with A. Fribergh and T. Lions.</p>
+          <p><u>Location:</u> Room 8W 2.28, 8 West, University of Bath</p>
+          <p><u>Time:</u> 22 February 2023, 2:15pm GMT</p>
+          </div>
+
+        <button class="collapsible">Random geometric graphs and the phase transition - Nic K&uuml;pper</button>
+        <div class="content">
+          <p>Random geometric graphs are a large and diverse family of graphs with various interesting properties. The simplest type is the Poisson Boolean model. The vertices are given by a Poisson
+             point process and we create an edge for any two points that are sufficiently close. It is driven by a single parameter, the Poisson point process intensity. The main object of interest
+             is the phase transition of the graph, driven by the intensity which divides the parameter space into two regions of vastly different behaviours. One particular change is the size of large
+             components around the origin.</p>
+          <p><u>Location:</u> Room 8W 2.34, 8 West, University of Bath</p>
+          <p><u>Time:</u> 30 November 2022, 1:15pm GMT</p>
+          </div>
+
+        <button class="collapsible">Discrete self-interacting walks and biologically inspired network design - Wilfred Armfield</button>
+        <div class="content">
+          <p>Biomimicry is the study of biology in search of natural solutions to our problems and has been around for over 4000 years. One of the most recent developments in this field is the slime
+             mold Physarum polycephalum and its ability to solve network problems without centralised intelligence. This talk aims to understand this phenomenon through reinforced random walks on
+             graphs.</p>
+          <p><u>Location:</u> Room G.12, Fry Building, University of Bristol</p>
+          <p><u>Time:</u> 27 October 2022, 4:00pm GMT</p>
+          </div>
+
+        <button class="collapsible">Can deleterious mutations surf population expansion waves? - Jo&#227;o Luiz de Oliveira Madeira</button>
+        <div class="content">
+          <p>During evolution, a population can acquire and accumulate mutations, i.e. changes in the DNA sequence which are transmitted across generations. Importantly, mutations can affect the
+             ability of a living organism to survive and reproduce. This ability is called fitness, and it is expected that deleterious mutations (i.e. mutations that decrease fitness) have a lower
+             probability of being transmitted to succeeding generations. In spatially structured populations, however, the probability an individual survives depends not only on the fitness of its
+             genotype, but also on the local population density in the neighbourhood of this individual. Roughly speaking, a high local population density may either increase the survival probability
+             due to cooperativity or decrease it due to competition. This interaction may increase the probability of mutations arising in the front of a spatial population expansion to spread over
+             a large unoccupied habitat, a phenomenon called gene surfing. In this talk, I will explain a model introduced by Foutel-Rodier and Etheridge in 2020 to study the gene surfing of deleterious
+             mutations, as well as a conjecture regarding the scaling limit of the model. If time allows, I will also show some of the techniques that we are planning to use in a birth-death toy model
+             with countably many types of particles.</p>
+          <p><u>Location:</u> Room G.12, Fry Building, University of Bristol</p>
+          <p><u>Time:</u> 27 October 2022, 4:00pm GMT</p>
+          </div>
+
+        <button class="collapsible">The symbiotic contact process on Galton-Watson trees - Carmen van-de-l'Isle</button>
+        <div class="content">
+          <p>The symbiotic contact process can be thought of as a two type generalisation of the contact process which can be used to model the spread of two symbiotic diseases. Each site
+            can either be infected with type A, type B, both, or neither. Infections of either type at a given site occur at a rate of lambda multiplied by the number of neighbours infected
+            by that type. Recoveries of either type at a given site occur at rate 1 if only one type is present, or at a lower rate mu if both types are present, hence the symbiotic name. Both
+            the contact process and the symbiotic contact process have two critical infection rates on a Galton-Watson tree, one determining weak survival, and the other strong survival. Here,
+            weak survival refers to the event where at least one A infection and at least one B infection is present at all times. Strong survival is the event that the root of the tree is
+            infected with both A and B infections at the same time infinitely often. In this talk, I will prove that for small values of mu the weak critical infection rate for the symbiotic
+            model is strictly smaller than the critical rate for the contact process. I will also discuss the more complicated case of strong survival for both processes.</p>
+          <p><u>Location:</u> Room 2.32, Fry Building, University of Bristol</p>
+          <p><u>Time:</u> 31 August 2022, 4:00pm GMT</p>
+          </div>
+
+        <button class="collapsible">Brownian motion on the Brownian web - Davy Ker</button>
+        <div class="content">
+          <p>On the lattice &#x2124;<sup>2</sup>, consider coalescing random walks starting at every point, which move up or right with equal probability,
+            forming the edges of a graph - the discrete web. The resulting connected graph can be seen as a collection of one-dimensional coalescing
+            random walks, where one diagonal axis represents space and the other time. Inspired by the voter model, known to be dual to coalescing random
+            walks, this object yields, via diffusive space-time scaling limit, an uncountable analogue, the Brownian web, of one-dimensional coalescing
+            Brownian motions starting at every point in 2D spacetime. We consider the random walk on the discrete web, many of whose properties we can
+            understand by studying the growth of graph-balls and effective resistance.</p>
+          <p><u>Location:</u> Room 8W 2.27, 8 West, University of Bath</p>
+          <p><u>Time:</u> 27 July 2022, 1:15pm GMT</p>
+          </div>
+
+        <button class="collapsible">Reinforced digging random walks on trees with linear reinforcement - Pawel Rudnicki</button>
+        <div class="content">
+          <p>We introduce reinforced digging random walks (RDRW) which are self-interacting non-Markovian random walks that depend on the reinforcement parameter
+             &#7839; > 0 and some reinforcement function f. RDRW can be seen as a mixture of a digging random walk and a random walk with random conductances. In particular,
+             we study RDRW with a linear reinforcement and show that the phase transition for recurrence and transience depends on the branching-ruin number of a tree and some
+             quantity K(&#7839;).</p>
+          <p><u>Location:</u> Room 2.32, Fry Building, University of Bristol</p>
+          <p><u>Time:</u> 22 June 2022, 12:00pm GMT</p>
+          </div>
+
+        <button class="collapsible">Playing with fire: The necessary evil of self-organised criticality - Erin Russell</button>
+        <div class="content">
+          <p>Consider a mean field Erd&#337;s-R&eacute;nyi random digraph process on n vertices. Let each possible directed edge arrive with rate 1/2n. Without opposition, this process
+             is guaranteed to result in the n-complete graph. Hence, we introduce a Poisson rain of &quot;lightning strikes&quot; to each vertex with rate &#955;(n), which propagates
+             across its out-graph, burning all edges of an affected vertex. Subsequently, the system continues to fluctuate to no end in a battle between creation and destruction.</p>
+          <p><u>Location:</u> Wolfson Lecture Theatre (4W 1.7), 4 West, University of Bath</p>
+          <p><u>Time:</u> 25 May 2022, 1:15pm GMT</p>
+          </div>
+
+        </div>
+    </div>
+
+    <script>
+    var coll = document.getElementsByClassName("collapsible");
+    var i;
+
+    for (i = 0; i < coll.length; i++) {
+      coll[i].addEventListener("click", function() {
+        this.classList.toggle("active");
+        var content = this.nextElementSibling;
+        if (content.style.maxHeight){
+          content.style.maxHeight = null;
+        } else {
+          content.style.maxHeight = content.scrollHeight + "px";
+        }
+      });
+    }
+    </script>
+
+    <div id="content_footer"></div>
+    <div id="footer">
+      <p><a href="index.html">Home</a> | <a href="activities.html">Activities</a> | <a href="seminar.html">POPS</a> | <a href="contact.html">Contact</a></p>
+      <p>Copyright &copy; simplestyle_4 | <a href="http://validator.w3.org/check?uri=referer">HTML5</a> | <a href="http://jigsaw.w3.org/css-validator/check/referer">CSS</a> | <a href="http://www.html5webtemplates.co.uk">design from HTML5webtemplates.co.uk</a></p>
+    </div>
+  </div>
+</body>
+</html>

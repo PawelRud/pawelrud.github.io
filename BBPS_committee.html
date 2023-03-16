@@ -1,0 +1,146 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+  <title>Bath Probability &amp; Stochastics Seminar - Committee</title>
+  <meta name="description" content="website description" />
+  <meta name="keywords" content="website keywords, website keywords" />
+  <meta http-equiv="content-type" content="text/html; charset=windows-1252" />
+  <link rel="stylesheet" type="text/css" href="style/style.css" />
+</head>
+
+<script src="scripts.js"></script>
+
+<body>
+  <div id="main">
+    <div id="header">
+      <div id="logo">
+        <div id="logo_text">
+          <!-- class="logo_colour", allows you to change the colour of the text -->
+          <h1><a href="index.html">Pawel Rudnicki</span></a></h1>
+          <h2>PhD Research Programme in Mathematics</h2>
+          <h2>University of Bath</h2>
+        </div>
+      </div>
+      <div id="menubar">
+        <ul id="menu">
+          <!-- put class="selected" in the li tag for the selected page - to highlight which page you're on -->
+          <li><a href="index.html">Home</a></li>
+          <li><a href="activities.html">Activities</a></li>
+          <li class="selected"><a href="seminar.html">POPS</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+    <div id="content_header"></div>
+    <div id="site_content">
+      <div id="sidebar_container">
+        <div class="sidebar">
+          <div class="sidebar_top"></div>
+          <div class="sidebar_item">
+            <!-- insert your sidebar items here
+            <h3>Upcoming</h3>
+            <h4>Reinforced digging random walks on trees with linear reinforcement</h4>
+            <h5>22 June 2022</h5>
+            <p><a href="bath_bristol_seminar.html">Read more</a></p> -->
+
+            <div w3-include-html="upcoming.html"></div>
+            <script> includeHTML(); </script>
+
+          </div>
+          <div class="sidebar_base"></div>
+        </div>
+      </div>
+      <div id="content" style="margin-bottom: 2cm;">
+        <!-- insert the page content here -->
+        <h1><b>Organisers</b></h1>
+
+        <ul>
+
+        <li><p><a href="https://people.bath.ac.uk/ccvdli20/">Carmen C. van-de-l'Isle</a></p>
+
+        <span class="right"><img src="Pictures\carmen.jpg" width="200" alt="Carmen C. van-de-l'Isle"></span>
+
+        <p style="margin-bottom: 2.5cm;">My mathematical interests lie within discrete probability with specific interests in interacting particle systems and random processes
+          on both random and fixed structures. I am currently a PhD student in Statistical Applied Mathematics at Bath (SAMBa) as part of the 7th cohort. My current project is
+          on the symbiotic contact process on random structures and is supervised by  Marcel Ortgiese and Sarah Penington. My current area of research concerns the comparison
+          of the critical values for both the symbiotic contact process and the contact process on Galton-Watson trees.</p></li>
+
+
+        <li><p><a href="https://people.bath.ac.uk/nmk37/">Nic K&uuml;pper</a></p>
+
+        <span class="right"><img src="Pictures\nic.png" width="200" alt="Nic K&uuml;pper"></span>
+
+        <p style="margin-bottom: 2.5cm;">I am currently doing a PhD at the University of Bath and I am supervised by Mathew Penrose. I am interested in random geometric graphs, that is random
+          graphs embedded in a metric space. At the moment I am studying the Random Connection Model in Euclidean space and extending results from simpler models on how large components
+          behave.</p></li>
+
+
+        <li><p><a href="https://people.bath.ac.uk/pr558/">Pawel Rudnicki</a></p>
+
+        <span class="right"><img src="Pictures\pawel.jpg" width="200" alt="Pawel Rudnicki"></span>
+
+        <p style="margin-bottom: 4cm;">I am a PhD student working within the probability group at University of Bath, under the supervision of Daniel Kious. I am mainly
+          interested in random walks in random environments, with a focus on reinforced random walks. My current research investigates reinforced digging random walks on trees and
+          once-reinforced random walks on tree-like graphs, that is graphs with loops which additionally possess a useful tree structure. In particular, I study the phase transition
+          for recurrence/transience of those walks on their respective graphs.</p></li>
+
+
+        <!--<li><p><a href="https://research-information.bris.ac.uk/en/persons/davy-r-ker">Davy Ker</a></p>
+
+        <span class="right"><img src="Pictures\davy.jpg" width="200" alt="Davy Ker"></span>-->
+
+        <!--<p style="margin-bottom: 3.5cm;">I am a PhD student working within the probability group at University of Bath, under the supervision of Daniel Kious. I am mainly
+          interested in random walks in random environments, with a focus on reinforced random walks. My current research investigates reinforced digging random walks on trees and
+          once-reinforced random walks on tree-like graphs, that is graphs with loops which additionally possess a useful tree structure. In particular, I study the phase transition
+          for recurrence/transience of those walks on their respective graphs.</p></li>-->
+
+
+        <!--<li><p><a href="https://research-information.bris.ac.uk/en/persons/erin-g-russell">Erin Russell</a></p>
+
+        <span class="right"><img src="Pictures\erin.jpg" width="200" alt="Erin Russell"></span> </p>
+
+        <p>I have a keen interest in probability, with research spanning into the areas of stochastic processes on networks and particle systems. The current focus of my PhD is to
+          investigate a variant of the mean field forest fire model. The aim of this is to prove analogous theorems and lemmata using a coupling between the two models.</p>-->
+
+      </ul>
+
+      <button class="collapsible">Previous members of the committee</button>
+      <div class="content">
+        <ul>
+
+        <li><p><a href="https://research-information.bris.ac.uk/en/persons/davy-r-ker">Davy Ker</a>, University of Bristol</p>
+
+        <li><p><a href="https://research-information.bris.ac.uk/en/persons/erin-g-russell">Erin Russell</a>, University of Bristol</p>
+
+        </ul>
+        </div>
+
+      </div>
+      </div>
+
+      <script>
+      var coll = document.getElementsByClassName("collapsible");
+      var i;
+
+      for (i = 0; i < coll.length; i++) {
+        coll[i].addEventListener("click", function() {
+          this.classList.toggle("active");
+          var content = this.nextElementSibling;
+          if (content.style.maxHeight){
+            content.style.maxHeight = null;
+          } else {
+            content.style.maxHeight = content.scrollHeight + "px";
+          }
+        });
+      }
+      </script>
+
+    <div id="content_footer"></div>
+    <div id="footer">
+      <p><a href="index.html">Home</a> | <a href="activities.html">Activities</a> | <a href="seminar.html">POPS</a> | <a href="contact.html">Contact</a></p>
+      <p>Copyright &copy; simplestyle_4 | <a href="http://validator.w3.org/check?uri=referer">HTML5</a> | <a href="http://jigsaw.w3.org/css-validator/check/referer">CSS</a> | <a href="http://www.html5webtemplates.co.uk">design from HTML5webtemplates.co.uk</a></p>
+    </div>
+  </div>
+</body>
+</html>
