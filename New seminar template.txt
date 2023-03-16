@@ -1,0 +1,34 @@
+### Seminar announcement ###
+
+        <h1><b>Random geometric graphs and the phase transition</b> - Nic K&uuml;pper</h1>
+        <p>Random geometric graphs are a large and diverse family of graphs with various interesting properties. The simplest type is the Poisson Boolean model. The vertices are given by a Poisson
+           point process and we create an edge for any two points that are sufficiently close. It is driven by a single parameter, the Poisson point process intensity. The main object of interest
+           is the phase transition of the graph, driven by the intensity which divides the parameter space into two regions of vastly different behaviours. One particular change is the size of large
+           components around the origin.</p>
+
+        <p><u>Location:</u> Room 8W 2.34, 8 West, University of Bath</p>
+        <p><u>Time:</u> 30 November 2022, 1:15pm GMT</p>
+
+
+
+### Seminar announcement - MC Teams/Zoom links ###
+
+       <p> The seminar will also be broadcast on Zoom via the following link: <a href="https://bath-ac-uk.zoom.us/j/99330342388?pwd=R1V2MFFPTGQvT2htbmo2VkZ1TXlpdz09">Join Zoom Meeting</a>
+          <ul>
+            <li>Meeting ID: 993 3034 2388</li>
+            <li>Passcode: 887664</li>
+          </ul>
+        </p>
+
+        <p> The seminar will also be broadcast on MC Teams via the following link: <a href="">Click here to join the meeting</a></p>
+
+
+
+### Seminar announcement - Workshops ###
+
+        <h1><b>Workshops</b></h1>
+        <p>We are hosting a special workshop edition of the Bath Probability &amp; Stochastics Seminar this month. Whether you need some creative brainstorming or have to tackle a tedious calculation,
+          bring any probability-related problems you have, or just come and see if anyone needs your help. If you prefer to work alone, this is a great chance to find an accountability buddy to keep you focused.</p>
+
+        <p><u>Location:</u> Room 8W 1.33, 8 West, University of Bath</p>
+        <p><u>Time:</u> 26 January 2023, 2:15pm GMT</p>
