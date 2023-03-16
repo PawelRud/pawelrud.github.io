@@ -1,0 +1,115 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+  <title>POPS - Postgraduate Online Probability Seminar</title>
+  <meta name="description" content="website description" />
+  <meta name="keywords" content="website keywords, website keywords" />
+  <meta http-equiv="content-type" content="text/html; charset=windows-1252" />
+  <link rel="stylesheet" type="text/css" href="style/style.css" />
+</head>
+
+<script src="scripts.js"></script>
+
+<body>
+  <div id="main">
+    <div id="header">
+      <div id="logo">
+        <div id="logo_text">
+          <!-- class="logo_colour", allows you to change the colour of the text -->
+          <h1><a href="index.html"><img src="POPS\Logo\logo_white.svg" width="150" alt="POPS Logo"></span></a></h1>
+          <h2 style="color:white;">Postgraduate Online Probability Seminar</h2>
+        </div>
+      </div>
+      <div id="menubar">
+        <ul id="menu">
+          <!-- put class="selected" in the li tag for the selected page - to highlight which page you're on -->
+          <li><a href="index.html">Home</a></li>
+          <li><a href="activities.html">Activities</a></li>
+          <li class="selected"><a href="seminar.html">POPS</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+    <div id="content_header"></div>
+    <div id="site_content">
+      <div id="sidebar_container">
+        <div class="sidebar">
+          <div class="sidebar_top"></div>
+          <div class="sidebar_item">
+            <!-- insert your sidebar items here
+            <h3>Upcoming</h3>
+            <h4>Reinforced digging random walks on trees with linear reinforcement</h4>
+            <h5>22 June 2022</h5>
+            <p><a href="bath_bristol_seminar.html">Read more</a></p> -->
+
+            <div w3-include-html="upcoming.html"></div>
+            <script> includeHTML(); </script>
+
+          </div>
+          <div class="sidebar_base"></div>
+        </div>
+      </div>
+      <div id="content" style="margin-bottom: 2cm;">
+
+        <h1><a href="committee.html">Meet the organisers</a></h1>
+
+        <p style="margin-bottom: 0.25cm;">The <i><b>Postgraduate Online Probability Seminar</b></i> (POPS) is an online platform for <u>doctoral students</u>
+           and <u>post-docs</u> from all over the world to present and promote their research to a global audience in areas related to probability and its
+            applications.</p>
+
+        <p style="margin-bottom: 0.25cm;">The seminar takes place on the last Wednesday of every month at (TBC) on (Zoom/Teams), so make sure to join the
+          <a href="https://www.jiscmail.ac.uk/cgi-bin/wa-jisc.exe?SUBED1=PG-PROB-SEM&A=1">mailing list</a> to receive reminders and stay informed about upcoming events!</p>
+
+        <p style="margin-bottom: -0.25cm;">If you would like to give a talk, please contact one of the organisers.</p>
+
+        <ul>
+          <li><b>Carmen C. van-de-l'Isle:</b> ccvdli20 [at] bath.ac.uk </li>
+          <li><b>Pawel Rudnicki:</b> pr558 [at] bath.ac.uk</li>
+          <li><b>Nic K&uuml;pper:</b> nmk37 [at] bath.ac.uk </li>
+        </ul>
+
+        <hr>
+
+        <h1><u>Next seminar:</u></h1>
+
+        <p></p>
+
+        <hr>
+
+        <p style="margin: 20px 0px 0px 0px;"><span class="right"><img src="POPS\QR\QR_POPS_beige.png" width="150" alt="QR code"></span></p>
+
+        <p style="margin: 50px 0px 60px 15px; font-size:125%;">Join the mailing list on <a href="https://www.jiscmail.ac.uk/cgi-bin/wa-jisc.exe?SUBED1=PG-PROB-SEM&A=1"> this website </a> or using the QR code.</p>
+
+        <hr>
+
+        <h1><b>Previous <a href="BBPS_seminar.html">Bath - Bristol Probability Seminars</a> (2022/2023)</b></h1>
+
+        </div>
+    </div>
+
+    <script>
+    var coll = document.getElementsByClassName("collapsible");
+    var i;
+
+    for (i = 0; i < coll.length; i++) {
+      coll[i].addEventListener("click", function() {
+        this.classList.toggle("active");
+        var content = this.nextElementSibling;
+        if (content.style.maxHeight){
+          content.style.maxHeight = null;
+        } else {
+          content.style.maxHeight = content.scrollHeight + "px";
+        }
+      });
+    }
+    </script>
+
+    <div id="content_footer"></div>
+    <div id="footer">
+      <p><a href="index.html">Home</a> | <a href="activities.html">Activities</a> | <a href="seminar.html">POPS</a> | <a href="contact.html">Contact</a></p>
+      <p>Copyright &copy; simplestyle_4 | <a href="http://validator.w3.org/check?uri=referer">HTML5</a> | <a href="http://jigsaw.w3.org/css-validator/check/referer">CSS</a> | <a href="http://www.html5webtemplates.co.uk">design from HTML5webtemplates.co.uk</a></p>
+    </div>
+  </div>
+</body>
+</html>
