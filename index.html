@@ -1,0 +1,80 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+  <title>Pawel Rudnicki</title>
+  <meta name="description" content="website description" />
+  <meta name="keywords" content="website keywords, website keywords" />
+  <meta http-equiv="content-type" content="text/html; charset=windows-1252" />
+  <link rel="stylesheet" type="text/css" href="style/style.css" />
+  <style> hr { float: right; margin: 0 0 0 15 px; }</style>
+</head>
+
+<script src="scripts.js"></script>
+
+<body>
+  <div id="main">
+    <div id="header">
+      <div id="logo">
+        <div id="logo_text">
+          <!-- class="logo_colour", allows you to change the colour of the text -->
+          <h1><a href="index.html">Pawel Rudnicki</span></a></h1>
+          <h2>PhD Research Programme in Mathematics</h2>
+          <h2>University of Bath</h2>
+        </div>
+      </div>
+      <div id="menubar">
+        <ul id="menu">
+          <!-- put class="selected" in the li tag for the selected page - to highlight which page you're on -->
+          <li class="selected"><a href="index.html">Home</a></li>
+          <li><a href="activities.html">Activities</a></li>
+          <li><a href="seminar.html">POPS</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+    <div id="content_header"></div>
+    <div id="site_content">
+      <div id="sidebar_container">
+        <div class="sidebar">
+          <div class="sidebar_top"></div>
+          <div class="sidebar_item">
+            <!-- insert your sidebar items here
+            <h3>Upcoming</h3>
+            <h4>Reinforced digging random walks on trees with linear reinforcement</h4>
+            <h5>22 June 2022</h5>
+            <p><a href="bath_bristol_seminar.html">Read more</a></p> -->
+
+            <div w3-include-html="upcoming.html"></div>
+            <script> includeHTML(); </script>
+
+          </div>
+          <div class="sidebar_base"></div>
+        </div>
+      </div>
+      <div id="content" style="margin-bottom: 2cm;">
+        <h1><b>Biography</b></h1>
+
+        <span class="right"><img src="pawel.jpg" alt="" width="150"/></span>
+
+        <p>I am a third year PhD student working within the probability group <a href="https://www.bath.ac.uk/research-centres/probability-laboratory-at-bath/">Prob-L@b</a> at University of Bath.
+          I am mainly interested in random walks in random environments. My current research focuses on reinforced random walks and is supervised by <a href="https://sites.google.com/view/danielkious">
+          Daniel Kious</a>. I completed my MMath in Mathematics at Durham University 2016 - 2020. My dissertation was on <q>Percolation: Methods for obtaining the upper and lower bounds for critical
+          probabilities</q> supervised by <a href="https://www.maths.dur.ac.uk/users/Mikhail.Menshikov/">Mikhail Menshikov</a>.</p>
+
+        <h1><b>Education</b></h1>
+
+        <ul>
+          <li>MMath in Mathematics, 2020 - University of Durham, UK</li>
+        </ul>
+
+      </div>
+    </div>
+    <div id="content_footer"></div>
+    <div id="footer">
+      <p><a href="index.html">Home</a> | <a href="activities.html">Activities</a> | <a href="seminar.html">POPS</a> | <a href="contact.html">Contact</a></p>
+      <p>Copyright &copy; simplestyle_4 | <a href="http://validator.w3.org/check?uri=referer">HTML5</a> | <a href="http://jigsaw.w3.org/css-validator/check/referer">CSS</a> | <a href="http://www.html5webtemplates.co.uk">design from HTML5webtemplates.co.uk</a></p>
+    </div>
+  </div>
+</body>
+</html>
